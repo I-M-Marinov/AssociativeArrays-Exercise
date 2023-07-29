@@ -19,8 +19,7 @@ namespace P7.CompanyUsers
 
         public void AddID(string id)
         {
-            this.employeeID.Add(id);
-
+            employeeID.Add(id);
         }
         public override string ToString()
         {
